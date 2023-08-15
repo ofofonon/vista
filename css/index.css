@@ -1,0 +1,519 @@
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    background-color: #FFF8F4;
+    font-family: 'Gilroy-Bold ☞';
+   color: #000000;
+    overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Gilroy-Bold ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+  }
+
+.navbar-brand img{
+  width: 186px;
+  height: 62px;
+    margin-left: 70px;
+   margin-top: -10px;
+}
+.navbar button{
+  width: fit-content;
+  background-color: #E25D1a;
+  color: white;
+  border: 0px;
+  border-radius: 7px;
+ height: 66px;
+  margin-top: 0px;
+}
+
+.navbar button:hover{
+  opacity: 80%;
+}
+
+
+.navbar{
+    z-index: 5;
+    background-color: #FFF8F4 ;
+    border-radius: 8px;
+    opacity: 98%;
+   position: fixed;
+   width: 101%;
+   box-shadow: 2px #000000;
+   margin-top: 0%;
+}
+
+.navbar p{
+   color: #000000;
+font-size: 19px;
+font-weight: bold;
+padding: 20px;
+
+}
+
+
+.navbar h3{
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+.nav-link{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.esent{
+    margin-top: 250px;
+    
+    
+}
+
+.esent h3{
+    font-weight: bolder;
+    text-align: center;
+   
+}
+
+h4{
+    font-weight: bold;
+   
+}
+
+hr{
+   color: #E25D1a;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+   
+    width: 120px;
+    padding: 2px;
+    margin: 0px;
+   
+}
+
+.btn:hover{
+  opacity: 70%;
+}
+
+.over{
+    background-color: black;
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.wa{
+    margin-top: 70px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    
+    border-radius: 5px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #E25D1a; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E25D1a; 
+    opacity: 90%;
+  }
+
+  .man img{
+    height: 600px;
+    margin-top: 20px;
+  }
+
+  .bu img{
+    height: 45px;
+    padding: 0px;
+  }
+
+  .bu img:hover{
+    opacity: 80%;
+  }
+
+  .be h3{
+    text-align: center;
+  }
+
+  .ce{
+    margin-top: 76px;
+    
+    opacity: 88%;
+  }
+
+  .vl {
+    border-left: 2px solid green;
+    height: 133px;
+    
+  }
+
+  .grt{
+    padding-top: 95px;
+  }
+
+  .grt h5{
+    font-weight: bolder;
+  }
+  .grt button{
+   margin-left: 30%;
+   width: fit-content;
+  background-color: #E25D1a;
+  color: white;
+  border: 0px;
+  border-radius: 7px;
+  padding: 6px;
+  margin-top: 0px;
+  }
+
+  .ba{
+    width: 100%;
+    background-color: #FFFFFF;
+   
+  }
+
+  .bab img{
+    width: 865px;
+    height: 468px;
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    margin-top: 50px;
+  }
+
+  .sis{
+   height: 378px;
+   width: 652px;
+   border-radius: 20px;
+  margin: 10px;
+   margin-top: 30px;
+  }
+
+ 
+
+  .tr{
+    width: 345px;
+    height: 79px;
+  
+    
+  }
+
+  .pol{
+    height: 85px; 
+    width: 85px; 
+   
+   
+    border-radius: 10px;
+    
+  }
+
+  ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .cro img{
+    border-radius: 50%;
+  }
+  .cro{
+    position: absolute;
+    top: 41%;
+    right: 19%;
+  }
+
+  .crop{
+    position: absolute;
+    top: 75%;
+    left: 46%;
+  }
+
+  .crop1{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+  }
+
+  .crop2{
+    position: absolute;
+    top: 62%;
+    left: 46%;
+  }
+
+  .boy{
+    margin-left: 50px;
+    padding-top: 65px;
+
+  }
+
+  .sis img{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .kl{
+    width: 286px;
+height: 260px;
+border:2px solid rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+margin-left: 15px;
+  }
+
+  .ere{
+    width: 208px;
+height: 60px;
+background-color: rgba(226, 93, 26, 1);
+border-radius: 10px;
+
+
+  }
+
+  .ere:hover{
+    opacity: 80%;
+  }
+
+
+  .op{
+    width: 100%;
+margin-left: 2.5%;
+background-color: rgba(226, 93, 26, 1);
+
+  }
+
+  .op1{
+    width: 120%;
+margin-left: 7%;
+background-color: rgba(226, 93, 26, 1);
+
+  }
+
+  .opo{
+    width: 83%;
+
+background-color: rgba(246, 180, 147, 1);
+margin-top: 210px;
+
+  }
+
+  
+
+  .opo1{
+    width: 80%;
+border-radius: 7px;
+background-color: rgba(246, 180, 147, 1);
+margin-top: 20px;
+
+
+  }
+
+
+
+  .wh{
+    width: 204px;
+height: 60px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 10px
+
+  }
+
+  .wh1{
+    width: 100px;
+height: 30px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 5px
+
+  }
+
+  .sub{
+    width: 200px;
+height: 78px;
+background-color:rgba(255, 255, 255, 1);
+border-radius: 10px;
+position: absolute;
+top: 1020%;
+right: 2%;
+z-index: 6;
+
+  }
+
+.subsc{
+  width: 100px;
+height: 63px;
+background-color: rgba(0, 0, 0, 1);
+border-radius: 10px;
+
+}
+
+.poly{
+  position: absolute;
+top: 495%;
+left: 36%;
+
+}
+
+.poly2{
+  position: absolute;
+top: 500%;
+left: 32%;
+
+}
+
+.poly3{
+  position: absolute;
+top: 510%;
+left: 34%;
+
+}
+
+.poly4{
+  position: absolute;
+top: 491%;
+left: 80%;
+
+}
+
+.poly5{
+  position: absolute;
+top: 497%;
+left: 82%;
+
+}
+
+.poly6{
+  position: absolute;
+top: 502%;
+left: 84%;
+
+}
+
+.poly7{
+  position: absolute;
+top: 424%;
+left: 40%;
+
+}
+
+.poly8{
+  position: absolute;
+top: 390%;
+left: -16%;
+
+}
+
+.poly9{
+  position: absolute;
+top: 398%;
+left: -13%;
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+ color:  rgba(0, 0, 0, 0.4);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #E25D1a;
+color: white;}
+.dropdown-content a p:hover{color: white;} 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.trec{
+  font-family:'Gilroy-Regular ☞' ;
+}
+@font-face {
+  font-family: 'Gilroy-Regular ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+  }
+
+  .rrr:hover{
+    opacity: 80%;
+  }
+
+  .flu{
+    font-family: 'Gilroy-Light ☞';
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

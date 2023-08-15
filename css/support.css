@@ -1,0 +1,237 @@
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+   background-color: white; 
+    font-family: 'Gilroy-Bold ☞';
+   color: #000000;
+    overflow-x: hidden;
+   
+}
+@font-face {
+  font-family: 'Gilroy-Bold ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+  }
+
+.ab{
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+
+.navbar-brand img{
+    width: 186px;
+    height: 62px;
+      margin-left: 70px;
+     margin-top: -10px;
+  }
+  .navbar button{
+    width: fit-content;
+    background-color: #E25D1a;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+   height: 66px;
+    margin-top: 0px;
+  }
+  
+  
+  .navbar{
+      z-index: 5;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      border-radius: 8px;
+      opacity: 94%;
+  }
+  
+  .navbar p{
+     color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 20px;
+  }
+  
+  
+  .navbar h3{
+      font-weight: bolder;
+      color: antiquewhite;
+  }
+
+  .op{
+    width: 100%;
+margin-left: 2.5%;
+background-color: rgba(226, 93, 26, 1);
+
+  }
+
+  .op1{
+    width: 120%;
+margin-left: 7%;
+background-color: rgba(226, 93, 26, 1);
+
+  }
+
+  .opo{
+    width: 83%;
+
+background-color: rgba(246, 180, 147, 1);
+margin-top: 210px;
+
+  }
+
+  
+
+  .opo1{
+    width: 80%;
+border-radius: 7px;
+background-color: rgba(246, 180, 147, 1);
+margin-top: 20px;
+
+
+  }
+
+
+  .wh{
+    width: 204px;
+height: 60px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 10px
+
+  }
+
+  .sub{
+    width: 200px;
+height: 78px;
+background-color:rgba(255, 255, 255, 1);
+border-radius: 10px;
+position: absolute;
+top: 390%;
+right: 2%;
+z-index: 6;
+
+  }
+
+.subsc{
+  width: 100px;
+height: 63px;
+background-color: rgba(0, 0, 0, 1);
+border-radius: 10px;
+
+}
+
+.rp{
+  height: 35px;
+}
+
+.wom{
+    width: 100% ;
+height: 616px;
+background-color: rgba(226, 93, 26, 0.11);
+border-radius: 10px;
+margin-left: 65px;
+
+
+}
+
+.qs{
+  width: 322px;
+height: 76px;
+
+border-radius: 10px;
+border: solid 2px rgba(246, 180, 147, 1);
+
+}
+
+.qs1{
+  width: 70%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  border: solid 2px rgba(246, 180, 147, 1);
+  
+}
+
+.rr{
+  width: 42px;
+height: 34px;
+background-color: rgba(246, 180, 147, 1);
+border-radius: 5px;
+margin-top: 18px;
+margin-left: 20px;
+
+}
+
+.rr1{
+  width: 100%;
+height: 20px;
+background-color: rgba(246, 180, 147, 1);
+border-radius: 5px;
+margin-top: 18px;
+margin-left: 20px;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+ color:  rgba(0, 0, 0, 0.4);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #E25D1a;
+color: white;}
+.dropdown-content a p:hover{color: white;} 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.pre{
+  position: absolute;
+  top: 51%;
+  left: 34%;
+}
+
+.pre2{
+  position: absolute;
+  top: 142%;
+  left: 41%;
+}
+
+.pre3{
+  position: absolute;
+  top: 45%;
+  left: 61%;
+  
+}
+.pre4{
+  position: absolute;
+  top: 95%;
+  left: 76%;
+}
+
+

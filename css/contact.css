@@ -1,0 +1,209 @@
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    background-color: #FFF8F4;
+    font-family:  'Gilroy-Bold ☞','Gill Sans';
+   color: #000000;
+    overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Gilroy-Bold ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+  }
+
+.navbar-brand img{
+  width: 186px;
+  height: 62px;
+    margin-left: 70px;
+   margin-top: -10px;
+}
+.navbar button{
+  width: fit-content;
+  background-color: #E25D1a;
+  color: white;
+  border: 0px;
+  border-radius: 7px;
+ height: 66px;
+  margin-top: 0px;
+}
+
+
+.navbar{
+    z-index: 5;
+    background-color: #FFF8F4 ;
+    border-radius: 8px;
+    opacity: 97%;
+   position: fixed;
+   width: 100%;
+   box-shadow: 2px #000000;
+   top: 0%;
+}
+
+.navbar p{
+   color: #000000;
+font-size: 19px;
+font-weight: bold;
+padding: 20px;
+
+}
+
+
+.navbar h3{
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+.nav-link{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+.op{
+    width: 100%;
+
+background-color: rgba(226, 93, 26, 1);
+
+  }
+
+  .opo{
+    width: 90%;
+
+background-color: rgba(246, 180, 147, 1);
+margin-top: 210px;
+
+  }
+
+  .wh{
+    width: 204px;
+height: 60px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 10px
+
+  }
+
+  .sub{
+    width: 200px;
+height: 78px;
+background-color:rgba(255, 255, 255, 1);
+border-radius: 10px;
+position: absolute;
+top: 1020%;
+right: 2%;
+z-index: 6;
+
+  }
+
+.subsc{
+  width: 100px;
+height: 63px;
+background-color: rgba(0, 0, 0, 1);
+border-radius: 10px;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content a {
+   color:  rgba(0, 0, 0, 0.4);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #E25D1a;
+  color: white;}
+  .dropdown-content a p:hover{color: white;} 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+  input[type=text]{
+   width: 65%;
+   padding: 33px;
+    background-color:rgba(194, 190, 190, 0.452) ;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgb(31, 29, 29) 0px 5px 5px 0px;
+  font-family:Gilroy-Light ☞ ;
+  }
+  @font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+    }
+
+ .te{
+  width: 48%;
+height: 100px;
+border-radius: 10px;
+box-shadow: rgb(0, 0, 0) 0px 10px 10px 0px;
+ }
+
+ .tp{
+  width: 65%;
+   padding: 28px;
+   font-family: 'Gilroy-Medium ☞';
+   font-size: 19px;
+    border-radius: 10px;
+    border: solid 3px rgba(194, 190, 190, 0.966);
+    background-color: transparent;
+    
+ }
+ @font-face {
+  font-family: 'Gilroy-Medium ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+  }
+
+ .ser{
+  padding: 23px;
+  width: 10%;
+  background-color:#E25D1a;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  left: 72.6%;
+  border: none;
+  top: 9.7%;
+  color: white;
+  font-family: 'Gilroy-Light ☞';
+  font-size: 19px;
+ }
+
+ .cir{
+  width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #F6B493;
+margin-top: 11px;
+
+ }
+
